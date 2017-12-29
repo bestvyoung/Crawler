@@ -177,7 +177,7 @@ Type <span class="hljs-string">"help"</span>, <span class="hljs-string">"copyrig
     <span class="hljs-string">"numIndexesBefore"</span> : <span class="hljs-number">1</span>,
     <span class="hljs-string">"numIndexesAfter"</span> : <span class="hljs-number">2</span>,
     <span class="hljs-string">"ok"</span> : <span class="hljs-number">1</span>
-}</code><ul class="pre-numbering" style=""><li style="color: rgb(153, 153, 153);">1</li><li style="color: rgb(153, 153, 153);">2</li><li style="color: rgb(153, 153, 153);">3</li><li style="color: rgb(153, 153, 153);">4</li><li style="color: rgb(153, 153, 153);">5</li><li style="color: rgb(153, 153, 153);">6</li><li style="color: rgb(153, 153, 153);">7</li></ul></pre>
+}</code></pre>
 
 
 
@@ -203,7 +203,7 @@ Type <span class="hljs-string">"help"</span>, <span class="hljs-string">"copyrig
         <span class="hljs-string">"name"</span> : <span class="hljs-string">"item_1"</span>,
         <span class="hljs-string">"ns"</span> : <span class="hljs-string">"test.inventory"</span>
     }
-]</code><ul class="pre-numbering" style=""><li style="color: rgb(153, 153, 153);">1</li><li style="color: rgb(153, 153, 153);">2</li><li style="color: rgb(153, 153, 153);">3</li><li style="color: rgb(153, 153, 153);">4</li><li style="color: rgb(153, 153, 153);">5</li><li style="color: rgb(153, 153, 153);">6</li><li style="color: rgb(153, 153, 153);">7</li><li style="color: rgb(153, 153, 153);">8</li><li style="color: rgb(153, 153, 153);">9</li><li style="color: rgb(153, 153, 153);">10</li><li style="color: rgb(153, 153, 153);">11</li><li style="color: rgb(153, 153, 153);">12</li><li style="color: rgb(153, 153, 153);">13</li><li style="color: rgb(153, 153, 153);">14</li><li style="color: rgb(153, 153, 153);">15</li><li style="color: rgb(153, 153, 153);">16</li><li style="color: rgb(153, 153, 153);">17</li><li style="color: rgb(153, 153, 153);">18</li><li style="color: rgb(153, 153, 153);">19</li></ul></pre>
+]</code></pre>
 
 
 
@@ -212,7 +212,7 @@ Type <span class="hljs-string">"help"</span>, <span class="hljs-string">"copyrig
 
 
 <pre class="prettyprint"><code class="hljs avrasm has-numbering">db<span class="hljs-preprocessor">.inventory</span><span class="hljs-preprocessor">.dropIndex</span>({<span class="hljs-string">"item"</span>:<span class="hljs-number">1</span>})
-{ <span class="hljs-string">"nIndexesWas"</span> : <span class="hljs-number">2</span>, <span class="hljs-string">"ok"</span> : <span class="hljs-number">1</span> }</code><ul class="pre-numbering" style=""><li style="color: rgb(153, 153, 153);">1</li><li style="color: rgb(153, 153, 153);">2</li></ul></pre>
+{ <span class="hljs-string">"nIndexesWas"</span> : <span class="hljs-number">2</span>, <span class="hljs-string">"ok"</span> : <span class="hljs-number">1</span> }</code></pre>
 
 
 
@@ -226,7 +226,7 @@ Type <span class="hljs-string">"help"</span>, <span class="hljs-string">"copyrig
     <span class="hljs-string">"numIndexesBefore"</span> : <span class="hljs-number">1</span>,
     <span class="hljs-string">"numIndexesAfter"</span> : <span class="hljs-number">2</span>,
     <span class="hljs-string">"ok"</span> : <span class="hljs-number">1</span>
-}</code><ul class="pre-numbering" style=""><li style="color: rgb(153, 153, 153);">1</li><li style="color: rgb(153, 153, 153);">2</li><li style="color: rgb(153, 153, 153);">3</li><li style="color: rgb(153, 153, 153);">4</li><li style="color: rgb(153, 153, 153);">5</li><li style="color: rgb(153, 153, 153);">6</li><li style="color: rgb(153, 153, 153);">7</li></ul></pre>
+}</code></pre>
 
 
 
@@ -260,7 +260,7 @@ Type <span class="hljs-string">"help"</span>, <span class="hljs-string">"copyrig
     },
     <span class="hljs-string">"ok"</span> : <span class="hljs-number">1</span>
 }
-</code><ul class="pre-numbering" style=""><li style="color: rgb(153, 153, 153);">1</li><li style="color: rgb(153, 153, 153);">2</li><li style="color: rgb(153, 153, 153);">3</li><li style="color: rgb(153, 153, 153);">4</li><li style="color: rgb(153, 153, 153);">5</li><li style="color: rgb(153, 153, 153);">6</li><li style="color: rgb(153, 153, 153);">7</li><li style="color: rgb(153, 153, 153);">8</li><li style="color: rgb(153, 153, 153);">9</li><li style="color: rgb(153, 153, 153);">10</li><li style="color: rgb(153, 153, 153);">11</li><li style="color: rgb(153, 153, 153);">12</li><li style="color: rgb(153, 153, 153);">13</li><li style="color: rgb(153, 153, 153);">14</li><li style="color: rgb(153, 153, 153);">15</li><li style="color: rgb(153, 153, 153);">16</li><li style="color: rgb(153, 153, 153);">17</li><li style="color: rgb(153, 153, 153);">18</li><li style="color: rgb(153, 153, 153);">19</li><li style="color: rgb(153, 153, 153);">20</li><li style="color: rgb(153, 153, 153);">21</li><li style="color: rgb(153, 153, 153);">22</li><li style="color: rgb(153, 153, 153);">23</li><li style="color: rgb(153, 153, 153);">24</li><li style="color: rgb(153, 153, 153);">25</li><li style="color: rgb(153, 153, 153);">26</li><li style="color: rgb(153, 153, 153);">27</li></ul></pre>
+</code></pre>
 
 <p>stage 是COLLSCAN 说明没有走索引，走索引的话会显示 IXSCAN</p>
 
@@ -296,7 +296,7 @@ Type <span class="hljs-string">"help"</span>, <span class="hljs-string">"copyrig
 <span class="hljs-number">2015</span>-<span class="hljs-number">04</span>-<span class="hljs-number">26</span>T21:<span class="hljs-number">31</span>:<span class="hljs-number">34.119</span>+<span class="hljs-number">0800</span>    done dumping test<span class="hljs-preprocessor">.inventory</span>
 
 <span class="hljs-number">2015</span>-<span class="hljs-number">04</span>-<span class="hljs-number">26</span>T21:<span class="hljs-number">31</span>:<span class="hljs-number">34.119</span>+<span class="hljs-number">0800</span>    writing test<span class="hljs-preprocessor">.system</span><span class="hljs-preprocessor">.indexes</span> to dump/test/system<span class="hljs-preprocessor">.indexes</span><span class="hljs-preprocessor">.bson</span>
-</code><ul class="pre-numbering" style=""><li style="color: rgb(153, 153, 153);">1</li><li style="color: rgb(153, 153, 153);">2</li><li style="color: rgb(153, 153, 153);">3</li><li style="color: rgb(153, 153, 153);">4</li><li style="color: rgb(153, 153, 153);">5</li><li style="color: rgb(153, 153, 153);">6</li><li style="color: rgb(153, 153, 153);">7</li><li style="color: rgb(153, 153, 153);">8</li><li style="color: rgb(153, 153, 153);">9</li><li style="color: rgb(153, 153, 153);">10</li><li style="color: rgb(153, 153, 153);">11</li><li style="color: rgb(153, 153, 153);">12</li><li style="color: rgb(153, 153, 153);">13</li><li style="color: rgb(153, 153, 153);">14</li><li style="color: rgb(153, 153, 153);">15</li><li style="color: rgb(153, 153, 153);">16</li><li style="color: rgb(153, 153, 153);">17</li><li style="color: rgb(153, 153, 153);">18</li><li style="color: rgb(153, 153, 153);">19</li><li style="color: rgb(153, 153, 153);">20</li><li style="color: rgb(153, 153, 153);">21</li><li style="color: rgb(153, 153, 153);">22</li><li style="color: rgb(153, 153, 153);">23</li></ul></pre>
+</code></pre>
 
 
 
@@ -320,7 +320,7 @@ Type <span class="hljs-string">"help"</span>, <span class="hljs-string">"copyrig
 <span class="hljs-number">2015</span>-<span class="hljs-number">04</span>-<span class="hljs-number">27</span>T09:<span class="hljs-number">03</span>:<span class="hljs-number">22.399</span>+<span class="hljs-number">0800</span>    restoring users <span class="hljs-built_in">from</span> dump/admin/<span class="hljs-keyword">system</span>.users.bson
 
 <span class="hljs-number">2015</span>-<span class="hljs-number">04</span>-<span class="hljs-number">27</span>T09:<span class="hljs-number">03</span>:<span class="hljs-number">22.402</span>+<span class="hljs-number">0800</span>    done
-</code><ul class="pre-numbering" style=""><li style="color: rgb(153, 153, 153);">1</li><li style="color: rgb(153, 153, 153);">2</li><li style="color: rgb(153, 153, 153);">3</li><li style="color: rgb(153, 153, 153);">4</li><li style="color: rgb(153, 153, 153);">5</li><li style="color: rgb(153, 153, 153);">6</li><li style="color: rgb(153, 153, 153);">7</li><li style="color: rgb(153, 153, 153);">8</li><li style="color: rgb(153, 153, 153);">9</li><li style="color: rgb(153, 153, 153);">10</li><li style="color: rgb(153, 153, 153);">11</li><li style="color: rgb(153, 153, 153);">12</li><li style="color: rgb(153, 153, 153);">13</li><li style="color: rgb(153, 153, 153);">14</li><li style="color: rgb(153, 153, 153);">15</li><li style="color: rgb(153, 153, 153);">16</li><li style="color: rgb(153, 153, 153);">17</li></ul></pre>
+</code></pre>
 
 
 
@@ -382,7 +382,7 @@ Type <span class="hljs-string">"help"</span>, <span class="hljs-string">"copyrig
 
 <pre class="prettyprint"><code class="hljs avrasm has-numbering">use admin
 db<span class="hljs-preprocessor">.createUser</span>({user : <span class="hljs-string">"admin"</span>, pwd: <span class="hljs-string">"pass"</span>, roles: [ <span class="hljs-string">"readWrite"</span>, <span class="hljs-string">"dbAdmin"</span> ] })
-db<span class="hljs-preprocessor">.system</span><span class="hljs-preprocessor">.users</span><span class="hljs-preprocessor">.find</span>()</code><ul class="pre-numbering" style=""><li style="color: rgb(153, 153, 153);">1</li><li style="color: rgb(153, 153, 153);">2</li><li style="color: rgb(153, 153, 153);">3</li></ul></pre>
+db<span class="hljs-preprocessor">.system</span><span class="hljs-preprocessor">.users</span><span class="hljs-preprocessor">.find</span>()</code></pre>
 
 
 
@@ -414,7 +414,7 @@ db<span class="hljs-preprocessor">.system</span><span class="hljs-preprocessor">
 
 
 
-<pre class="prettyprint"><code class="hljs ini has-numbering"><span class="hljs-setting">auth=<span class="hljs-value"><span class="hljs-keyword">true</span></span></span></code><ul class="pre-numbering" style=""><li style="color: rgb(153, 153, 153);">1</li></ul></pre>
+<pre class="prettyprint"><code class="hljs ini has-numbering"><span class="hljs-setting">auth=<span class="hljs-value"><span class="hljs-keyword">true</span></span></span></code></pre>
 
 <p>service mongodb restart</p>                            </div>
 </body>
