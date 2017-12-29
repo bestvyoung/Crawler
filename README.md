@@ -56,7 +56,7 @@ apt<span class="hljs-attribute">-key</span> adv <span class="hljs-subst">--</spa
 
 apt<span class="hljs-attribute">-get</span> update
 
-apt<span class="hljs-attribute">-get</span> install <span class="hljs-attribute">-y</span> mongodb<span class="hljs-attribute">-org</span></code><ul class="pre-numbering" style=""><li style="color: rgb(153, 153, 153);">1</li><li style="color: rgb(153, 153, 153);">2</li><li style="color: rgb(153, 153, 153);">3</li><li style="color: rgb(153, 153, 153);">4</li><li style="color: rgb(153, 153, 153);">5</li><li style="color: rgb(153, 153, 153);">6</li><li style="color: rgb(153, 153, 153);">7</li></ul></pre>
+apt<span class="hljs-attribute">-get</span> install <span class="hljs-attribute">-y</span> mongodb<span class="hljs-attribute">-org</span></code></pre>
 
 
 
