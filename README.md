@@ -72,7 +72,8 @@ Failed global initialization: BadValue Invalid or no user locale set. Please ens
 
 
 <pre class="prettyprint"><code class="hljs bash has-numbering"><span class="hljs-keyword">export</span> LC_ALL=C
-mongo </code><ul class="pre-numbering" style=""><li style="color: rgb(153, 153, 153);">1</li><li style="color: rgb(153, 153, 153);">2</li></ul></pre>
+mongo </code>
+</pre>
 
 
 
@@ -87,7 +88,7 @@ mongo </code><ul class="pre-numbering" style=""><li style="color: rgb(153, 153, 
 
 
 <pre class="prettyprint"><code class="hljs avrasm has-numbering">/etc/init<span class="hljs-preprocessor">.d</span>/mongod start
-/etc/init<span class="hljs-preprocessor">.d</span>/mongod stop</code><ul class="pre-numbering" style=""><li style="color: rgb(153, 153, 153);">1</li><li style="color: rgb(153, 153, 153);">2</li></ul></pre>
+/etc/init<span class="hljs-preprocessor">.d</span>/mongod stop</code></pre>
 
 <p>命令行:</p>
 
@@ -98,7 +99,7 @@ nohup mongod -f /etc/mongod<span class="hljs-preprocessor">.conf</span> &amp;
 停止:
 mongo
     use admin
-    db<span class="hljs-preprocessor">.shutdownServer</span>()</code><ul class="pre-numbering" style=""><li style="color: rgb(153, 153, 153);">1</li><li style="color: rgb(153, 153, 153);">2</li><li style="color: rgb(153, 153, 153);">3</li><li style="color: rgb(153, 153, 153);">4</li><li style="color: rgb(153, 153, 153);">5</li><li style="color: rgb(153, 153, 153);">6</li></ul></pre>
+    db<span class="hljs-preprocessor">.shutdownServer</span>()</code></pre>
 
 
 
@@ -137,7 +138,7 @@ mongod –dbpath /data/db –repair <br>
 
 
 
-<pre class="prettyprint"><code class="hljs cmake has-numbering">pecl <span class="hljs-keyword">install</span> mongo</code><ul class="pre-numbering" style=""><li style="color: rgb(153, 153, 153);">1</li></ul></pre>
+<pre class="prettyprint"><code class="hljs cmake has-numbering">pecl <span class="hljs-keyword">install</span> mongo</code></pre>
 
 
 
@@ -156,7 +157,7 @@ Python <span class="hljs-number">2.7</span><span class="hljs-number">.3</span> (
 Type <span class="hljs-string">"help"</span>, <span class="hljs-string">"copyright"</span>, <span class="hljs-string">"credits"</span> <span class="hljs-keyword">or</span> <span class="hljs-string">"license"</span> <span class="hljs-keyword">for</span> more information.
 <span class="hljs-reserved">import</span> pymongo
 能正确<span class="hljs-reserved">import</span> 就说明pymongo已经安装成功
-</code><ul class="pre-numbering" style=""><li style="color: rgb(153, 153, 153);">1</li><li style="color: rgb(153, 153, 153);">2</li><li style="color: rgb(153, 153, 153);">3</li><li style="color: rgb(153, 153, 153);">4</li><li style="color: rgb(153, 153, 153);">5</li><li style="color: rgb(153, 153, 153);">6</li><li style="color: rgb(153, 153, 153);">7</li><li style="color: rgb(153, 153, 153);">8</li><li style="color: rgb(153, 153, 153);">9</li><li style="color: rgb(153, 153, 153);">10</li><li style="color: rgb(153, 153, 153);">11</li><li style="color: rgb(153, 153, 153);">12</li></ul></pre>
+</code></pre>
 
 
 
