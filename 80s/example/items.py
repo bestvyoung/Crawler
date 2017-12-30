@@ -9,12 +9,25 @@ from scrapy.loader.processors import MapCompose, TakeFirst, Join
 
 
 class ExampleItem(Item):
-    name = Field()
-    description = Field()
-    link = Field()
+    #name = Field()
+    #description = Field()
+    #link = Field()
     crawled = Field()
     spider = Field()
-    url = Field()
+    #url = Field()
+    img_url = Field()
+    name = Field()
+    #actors = Field()
+    category = Field()
+    area = Field()
+    language = Field()
+    director = Field()
+    release_time = Field()
+    play_time = Field()
+    synopsis = Field()
+    score = Field()
+    download_url = Field()
+
 
 
 class ExampleLoader(ItemLoader):

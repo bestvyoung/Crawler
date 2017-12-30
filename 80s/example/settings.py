@@ -9,11 +9,11 @@ SPIDER_MODULES = ['example.spiders']
 NEWSPIDER_MODULE = 'example.spiders'
 
 USER_AGENT = 'scrapy-redis (+https://github.com/rolando/scrapy-redis)'
-
+dont_filter = True
 DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 SCHEDULER = "scrapy_redis.scheduler.Scheduler"
 SCHEDULER_PERSIST = True
-#SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderPriorityQueue"
+SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderPriorityQueue"
 #SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderQueue"
 #SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderStack"
 
@@ -21,7 +21,8 @@ ITEM_PIPELINES = {
     'example.pipelines.ExamplePipeline': 300,
     'scrapy_redis.pipelines.RedisPipeline': 400,
 }
-
+REDIS_HOST = "39.106.49.110"
+REDIS_PORT = 6379
 LOG_LEVEL = 'DEBUG'
 
 # Introduce an artifical delay to make use of parallelism. to speed up the
