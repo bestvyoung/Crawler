@@ -20,11 +20,16 @@ SCHEDULER_QUEUE_CLASS = "scrapy_redis.queue.SpiderPriorityQueue"
 ITEM_PIPELINES = {
     'example.pipelines.ExamplePipeline': 300,
     'scrapy_redis.pipelines.RedisPipeline': 400,
+    'example.mongo_pipelines.MongoDBPipeline':200,
 }
 REDIS_HOST = "39.106.49.110"
 REDIS_PORT = 6379
 LOG_LEVEL = 'DEBUG'
 
+MONGODB_SERVER = "39.106.49.110"
+MONGODB_PORT = 27017
+MONGODB_DB = 'movie'
+MONGODB_COLLECTION = 'movie_info'
 # Introduce an artifical delay to make use of parallelism. to speed up the
 # crawl.
 DOWNLOAD_DELAY = 1

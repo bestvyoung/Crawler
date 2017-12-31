@@ -64,7 +64,7 @@ class MyCrawler(RedisCrawlSpider):
         item['director'] = response.xpath("//*[@id='minfo']/div[2]/div[1]/span[4]/a/text()").extract()[0]
         item['release_time'] = response.xpath("//*[@id='minfo']/div[2]/div[1]/span[5]/text()").extract()[0]
         item['play_time'] = response.xpath("//*[@id='minfo']/div[2]/div[1]/span[6]/text()").extract()[0]
-        item['synopsis'] = response.xpath("//*[@id='movie_content']/text()").extract()[0]
+        #item['synopsis'] = response.xpath("//*[@id='movie_content']/text()").extract()[0]
         item['score'] = response.xpath("//*[@id='minfo']/div[2]/div[2]/span[1]/text()").extract()[0].strip()
         item['download_url'] = response.xpath("//*[@id='myform']/ul/li[2]/span[3]/a/@href").extract()[0]
         #print(item)
